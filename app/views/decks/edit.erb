@@ -1,0 +1,7 @@
+<%= form_for @deck, url: deck_path do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  <%= form.submit "Update deck" %>
+<% end %>
